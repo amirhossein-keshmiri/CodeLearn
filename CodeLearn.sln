@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{55BCA888-371E-4020-A5BF-4A358652D58F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6BC0F34-BE1D-411B-832A-E83B8B4C20D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{423B70B7-BFD7-42DB-99A5-269A435EC22E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndPoints", "EndPoints", "{3CDEA60E-BD98-4E8C-A1E7-3BA70E910554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{417C4B9B-FEF0-4659-BAF4-AB1C7DBA1195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{F14D5F1B-4632-4D51-B942-351ABC725239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModules", "src\Modules\Blog\BlogModules\BlogModules.csproj", "{98F69C22-88F3-48F2-A83B-1BA46630A30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F69C22-88F3-48F2-A83B-1BA46630A30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F69C22-88F3-48F2-A83B-1BA46630A30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F69C22-88F3-48F2-A83B-1BA46630A30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F69C22-88F3-48F2-A83B-1BA46630A30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{423B70B7-BFD7-42DB-99A5-269A435EC22E} = {F6BC0F34-BE1D-411B-832A-E83B8B4C20D2}
+		{3CDEA60E-BD98-4E8C-A1E7-3BA70E910554} = {F6BC0F34-BE1D-411B-832A-E83B8B4C20D2}
+		{417C4B9B-FEF0-4659-BAF4-AB1C7DBA1195} = {F6BC0F34-BE1D-411B-832A-E83B8B4C20D2}
+		{F14D5F1B-4632-4D51-B942-351ABC725239} = {417C4B9B-FEF0-4659-BAF4-AB1C7DBA1195}
+		{98F69C22-88F3-48F2-A83B-1BA46630A30C} = {F14D5F1B-4632-4D51-B942-351ABC725239}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {786DA24F-074C-4344-8602-1C57C30DC097}
+	EndGlobalSection
+EndGlobal
